@@ -7,7 +7,7 @@ One can find data in corresponding folders. We split them based on language dire
 ## Fun Posts
 Fun Posts are longer, content-rich user posts that typically describe events, experiences, or personal observations, often containing slang and neologisms.
 
-Data Structure (zh->ja Example)
+### Data Structure (zh->ja Example)
 
 ```jsonc
 {
@@ -30,7 +30,7 @@ Data Structure (zh->ja Example)
 ## Social Snippets
 Social Snippets capture short, highly emotional or reactive user comments, often exhibiting distinctive tones and stylistic features. 
 
-Data Structure (zh->ja Example)
+### Data Structure (zh->ja Example)
 
 ```jsonc
 {
@@ -38,3 +38,8 @@ Data Structure (zh->ja Example)
   "translation": "フォロー済み、裏切らないでね",   // Human annotated gold label translation
 }
 ```
+
+## Evaluation
+Please refer to our paper on how to implement evaluation for now. (XCOMET, SSR, ES, GEMBA)
+
+Evaluation codes will be available soon. (Currently under internal company review)
